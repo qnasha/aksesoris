@@ -1,0 +1,627 @@
+CRITICAL - 2024-10-04 09:23:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(49): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 09:24:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(49): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 09:29:13 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Controllers\PesananController.php(50): App\Models\PesananModel->createPesanan([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 09:43:50 --> ErrorException: Undefined variable $1
+[Method: POST, Route: pesanan/store]
+in APPPATH\Controllers\PesananController.php on line 50.
+ 1 APPPATH\Controllers\PesananController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $1', 'C:\\xampp\\htdocs\\resto\\app\\Controllers\\PesananController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 09:45:44 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(58): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 10:23:02 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(59): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 10:27:09 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(61): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 10:30:29 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(61): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 10:31:43 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(61): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 10:31:49 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(61): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 10:32:07 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(61): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:00:08 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:01:49 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:04:18 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:04:51 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:04:57 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:05:12 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:05:49 --> ErrorException: Trying to access array offset on value of type int
+[Method: POST, Route: pesanan/store]
+in APPPATH\Models\pesananModel.php on line 26.
+ 1 APPPATH\Models\pesananModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Models\\pesananModel.php', 26)
+ 2 APPPATH\Controllers\PesananController.php(62): App\Models\PesananModel->createPesanan([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:18:42 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: pesanan/store]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\pesananModel.php(49): CodeIgniter\Model->update(23, [...])
+ 4 APPPATH\Controllers\PesananController.php(75): App\Models\PesananModel->createPesanan([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:22:01 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: pesanan/store]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Models\pesananModel.php(54): CodeIgniter\Model->update(25, [...])
+ 4 APPPATH\Controllers\PesananController.php(75): App\Models\PesananModel->createPesanan([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+ERROR - 2024-10-04 11:36:06 --> mysqli_sql_exception: Unknown column 'item_pesanan.product_id' in 'on clause' in C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `produk`...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `produk`...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\resto\app\Models\itempesananModel.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\resto\app\Controllers\PesananController.php(28): App\Models\ItemPesananModel->getItemPesananByPesananId('3')
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(933): App\Controllers\PesananController->index()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\resto\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-04 11:36:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'item_pesanan.product_id' in 'on clause'
+[Method: GET, Route: pesanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = :item_pesanan.pesanan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\itempesananModel.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\PesananController.php(28): App\Models\ItemPesananModel->getItemPesananByPesananId('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:36:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'item_pesanan.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = :item_pesanan.pesanan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\itempesananModel.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\PesananController.php(28): App\Models\ItemPesananModel->getItemPesananByPesananId('3')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:36:06 --> [Caused by] mysqli_sql_exception: Unknown column 'item_pesanan.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `produk`.`nama`, `produk`.`harga`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`product_id`
+WHERE `item_pesanan`.`pesanan_id` = :item_pesanan.pesanan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\itempesananModel.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\PesananController.php(28): App\Models\ItemPesananModel->getItemPesananByPesananId('3')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:42:23 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: pesanan]
+in APPPATH\Views\pesanan\index.php on line 31.
+ 1 APPPATH\Views\pesanan\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 5 APPPATH\Controllers\PesananController.php(33): view('pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:43:12 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: pesanan]
+in APPPATH\Views\pesanan\index.php on line 31.
+ 1 APPPATH\Views\pesanan\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 5 APPPATH\Controllers\PesananController.php(33): view('pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:53:58 --> ArgumentCountError: Too few arguments to function App\Controllers\PesananController::detail(), 0 passed in C:\xampp\htdocs\resto\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: pesanan/detail/29]
+in APPPATH\Controllers\PesananController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 11:54:15 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: pesanan/detail/29]
+in APPPATH\Controllers\PesananController.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->detail('29')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 12:03:07 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: pesanan/detail/29]
+in APPPATH\Controllers\PesananController.php on line 99.
+ 1 APPPATH\Controllers\PesananController.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\resto\\app\\Controllers\\PesananController.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->detail('29')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 12:35:57 --> ErrorException: Undefined variable $pesanan_id
+[Method: GET, Route: pembayaran]
+in APPPATH\Views\pembayaran\index.php on line 6.
+ 1 APPPATH\Views\pembayaran\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan_id', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pembayaran\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pembayaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/index', [], true)
+ 5 APPPATH\Controllers\PembayaranController.php(14): view('pembayaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PembayaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembayaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+ERROR - 2024-10-04 17:18:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'resto', 3306, '', 0)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#13 {main}
+CRITICAL - 2024-10-04 17:18:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: kategori]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Daniel Siahaan\\Documents\\resto\\public\\index.php')
+ERROR - 2024-10-04 17:19:22 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'resto' in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'resto', 3306, '', 0)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\produkController.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'resto' in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\produkController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#13 {main}
+CRITICAL - 2024-10-04 17:19:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'resto'
+[Method: GET, Route: produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `produk`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\produkController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProdukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Daniel Siahaan\\Documents\\resto\\public\\index.php')
+ERROR - 2024-10-04 17:19:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'resto' in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'resto', 3306, '', 0)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'resto' in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#13 {main}
+CRITICAL - 2024-10-04 17:19:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'resto'
+[Method: GET, Route: kategori]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Daniel Siahaan\\Documents\\resto\\public\\index.php')
+ERROR - 2024-10-04 17:19:53 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'resto' in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'resto', 3306, '', 0)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\MejaController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\MejaController->index()
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'resto' in C:\Users\Daniel Siahaan\Documents\resto\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Daniel Siahaan\Documents\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Daniel Siahaan\Documents\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Daniel Siahaan\Documents\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Daniel Siahaan\Documents\resto\app\Controllers\MejaController.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(933): App\Controllers\MejaController->index()
+#7 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+#8 C:\Users\Daniel Siahaan\Documents\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Daniel Siahaan\Documents\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Daniel Siahaan\Documents\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Daniel Siahaan\Documents\resto\system\rewrite.php(44): require_once('C:\\Users\\Daniel...')
+#13 {main}
+CRITICAL - 2024-10-04 17:19:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'resto'
+[Method: GET, Route: meja]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `meja`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MejaController.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MejaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MejaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Daniel Siahaan\\Documents\\resto\\public\\index.php')
+CRITICAL - 2024-10-04 17:40:52 --> ErrorException: Undefined variable $pesanan_id
+[Method: GET, Route: pembayaran]
+in APPPATH\Views\pembayaran\index.php on line 6.
+ 1 APPPATH\Views\pembayaran\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan_id', 'C:\\Users\\Daniel Siahaan\\Documents\\resto\\app\\Views\\pembayaran\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Daniel Siahaan\\Documents\\resto\\app\\Views\\pembayaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/index', [], true)
+ 5 APPPATH\Controllers\PembayaranController.php(14): view('pembayaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PembayaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembayaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Daniel Siahaan\\Documents\\resto\\public\\index.php')

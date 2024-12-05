@@ -1,0 +1,353 @@
+CRITICAL - 2024-10-28 09:28:06 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: status_barang]
+in APPPATH\Views\status_barang\index.php on line 19.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('status_barang/index', [], true)
+ 4 APPPATH\Controllers\status_barangController.php(13): view('status_barang/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\status_barangController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\status_barangController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 09:28:06 --> [Caused by] ErrorException: Undefined variable $status_pesanan
+in APPPATH\Views\status_barang\index.php on line 19.
+ 1 APPPATH\Views\status_barang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status_pesanan', 'C:\\xampp\\htdocs\\aksesoris\\app\\Views\\status_barang\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aksesoris\\app\\Views\\status_barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('status_barang/index', [], true)
+ 5 APPPATH\Controllers\status_barangController.php(13): view('status_barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\status_barangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\status_barangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+ERROR - 2024-10-28 09:28:16 --> mysqli_sql_exception: Table 'aksesoris.meja' doesn't exist in C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pesanan...', 0)
+#1 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan...')
+#2 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan...')
+#3 C:\xampp\htdocs\aksesoris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan...', Array, false)
+#4 C:\xampp\htdocs\aksesoris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aksesoris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aksesoris\app\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aksesoris\app\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+#8 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(933): App\Controllers\PesananController->index()
+#9 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#10 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aksesoris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aksesoris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aksesoris\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aksesoris\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-28 09:28:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aksesoris.meja' doesn't exist
+[Method: GET, Route: pesanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 09:28:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aksesoris.meja' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 09:28:16 --> [Caused by] mysqli_sql_exception: Table 'aksesoris.meja' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+ERROR - 2024-10-28 09:28:26 --> mysqli_sql_exception: Table 'aksesoris.meja' doesn't exist in C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pesanan...', 0)
+#1 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan...')
+#2 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan...')
+#3 C:\xampp\htdocs\aksesoris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan...', Array, false)
+#4 C:\xampp\htdocs\aksesoris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aksesoris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aksesoris\app\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aksesoris\app\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+#8 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(933): App\Controllers\PesananController->index()
+#9 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#10 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aksesoris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aksesoris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aksesoris\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aksesoris\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-28 09:28:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aksesoris.meja' doesn't exist
+[Method: GET, Route: pesanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 09:28:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aksesoris.meja' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 09:28:26 --> [Caused by] mysqli_sql_exception: Table 'aksesoris.meja' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `pesanan`.`waktu_pesanan`, `pesanan`.`total`, `pelanggan`.`nama`, `meja`.`nomor_meja`, `pesanan`.`status`
+FROM `pesanan`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\pesananModel.php(63): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\PesananController.php(19): App\Models\PesananModel->getAllPesanan()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 09:28:56 --> ErrorException: Undefined variable $pesanan_id
+[Method: GET, Route: pembayaran]
+in APPPATH\Views\pembayaran\index.php on line 6.
+ 1 APPPATH\Views\pembayaran\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan_id', 'C:\\xampp\\htdocs\\aksesoris\\app\\Views\\pembayaran\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aksesoris\\app\\Views\\pembayaran\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pembayaran/index', [], true)
+ 5 APPPATH\Controllers\PembayaranController.php(14): view('pembayaran/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PembayaranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembayaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+ERROR - 2024-10-28 13:48:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'aksesoris', 3306, '', 0)
+#1 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aksesoris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aksesoris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aksesoris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aksesoris\app\Controllers\PelangganController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(933): App\Controllers\PelangganController->index()
+#8 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PelangganController))
+#9 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aksesoris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aksesoris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aksesoris\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aksesoris\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aksesoris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aksesoris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aksesoris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aksesoris\app\Controllers\PelangganController.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(933): App\Controllers\PelangganController->index()
+#7 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PelangganController))
+#8 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aksesoris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aksesoris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aksesoris\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aksesoris\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-28 13:48:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: pelanggan]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelanggan`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PelangganController.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PelangganController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PelangganController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+ERROR - 2024-10-28 13:49:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'aksesoris', 3306, '', 0)
+#1 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\aksesoris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\aksesoris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\aksesoris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\aksesoris\app\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+#8 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#9 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\aksesoris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\aksesoris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\aksesoris\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\aksesoris\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\aksesoris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\aksesoris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\aksesoris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\aksesoris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\aksesoris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\aksesoris\app\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+#7 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#8 C:\xampp\htdocs\aksesoris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\aksesoris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\aksesoris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\aksesoris\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\aksesoris\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-28 13:49:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: kategori]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\kategoriController.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 13:49:35 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: status_barang]
+in APPPATH\Views\status_barang\index.php on line 19.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('status_barang/index', [], true)
+ 4 APPPATH\Controllers\status_barangController.php(13): view('status_barang/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\status_barangController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\status_barangController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')
+CRITICAL - 2024-10-28 13:49:35 --> [Caused by] ErrorException: Undefined variable $status_pesanan
+in APPPATH\Views\status_barang\index.php on line 19.
+ 1 APPPATH\Views\status_barang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status_pesanan', 'C:\\xampp\\htdocs\\aksesoris\\app\\Views\\status_barang\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\aksesoris\\app\\Views\\status_barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('status_barang/index', [], true)
+ 5 APPPATH\Controllers\status_barangController.php(13): view('status_barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\status_barangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\status_barangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aksesoris\\public\\index.php')

@@ -1,0 +1,302 @@
+CRITICAL - 2024-10-02 10:29:11 --> ArgumentCountError: Too few arguments to function App\Controllers\ItemPesananController::index(), 0 passed in C:\xampp\htdocs\resto\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: item_pesanan]
+in APPPATH\Controllers\ItemPesananController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ItemPesananController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemPesananController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 10:30:51 --> ArgumentCountError: Too few arguments to function App\Controllers\ItemPesananController::index(), 0 passed in C:\xampp\htdocs\resto\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: item_pesanan]
+in APPPATH\Controllers\ItemPesananController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ItemPesananController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemPesananController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 10:36:31 --> ErrorException: Undefined variable $pesanan_id
+[Method: GET, Route: item_pesanan]
+in APPPATH\Views\item_pesanan\index.php on line 6.
+ 1 APPPATH\Views\item_pesanan\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan_id', 'C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('item_pesanan/index', [], true)
+ 5 APPPATH\Controllers\ItemPesananController.php(18): view('item_pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ItemPesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemPesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 10:37:08 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: item_pesanan]
+in APPPATH\Views\item_pesanan\index.php on line 26.
+ 1 APPPATH\Views\item_pesanan\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('item_pesanan/index', [], true)
+ 5 APPPATH\Controllers\ItemPesananController.php(18): view('item_pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ItemPesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemPesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 10:38:30 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: item_pesanan/1]
+in APPPATH\Views\item_pesanan\index.php on line 26.
+ 1 APPPATH\Views\item_pesanan\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('item_pesanan/index', [], true)
+ 5 APPPATH\Controllers\ItemPesananController.php(18): view('item_pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ItemPesananController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemPesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 10:40:04 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: item_pesanan]
+in APPPATH\Views\item_pesanan\index.php on line 26.
+ 1 APPPATH\Views\item_pesanan\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\item_pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('item_pesanan/index', [], true)
+ 5 APPPATH\Controllers\ItemPesananController.php(18): view('item_pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ItemPesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemPesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+ERROR - 2024-10-02 11:26:42 --> mysqli_sql_exception: Unknown column 'pesanan.waktu_pemesanan' in 'field list' in C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pesanan...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\resto\app\Models\itempesananModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\resto\app\Controllers\PesananController.php(18): App\Models\ItemPesananModel->getItemPesanan()
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(933): App\Controllers\PesananController->index()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\resto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\resto\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-02 11:26:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pesanan.waktu_pemesanan' in 'field list'
+[Method: GET, Route: pesanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\itempesananModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\PesananController.php(18): App\Models\ItemPesananModel->getItemPesanan()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:26:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pesanan.waktu_pemesanan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\itempesananModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\PesananController.php(18): App\Models\ItemPesananModel->getItemPesanan()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:26:42 --> [Caused by] mysqli_sql_exception: Unknown column 'pesanan.waktu_pemesanan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.`id` as `pesanan_id`, `meja`.`nomor_meja`, `pelanggan`.`nama`, `pesanan`.`status`, `pesanan`.`total`, `pesanan`.`waktu_pemesanan`, `produk`.`nama`, `item_pesanan`.`kuantitas`
+FROM `item_pesanan`
+JOIN `pesanan` ON `pesanan`.`id` = `item_pesanan`.`pesanan_id`
+JOIN `produk` ON `produk`.`id` = `item_pesanan`.`produk_id`
+JOIN `pelanggan` ON `pelanggan`.`id` = `pesanan`.`pelanggan_id`
+JOIN `meja` ON `meja`.`id` = `pesanan`.`meja_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\itempesananModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\PesananController.php(18): App\Models\ItemPesananModel->getItemPesanan()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:31:10 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: pesanan]
+in APPPATH\Views\pesanan\index.php on line 20.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 4 APPPATH\Controllers\PesananController.php(22): view('pesanan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:31:10 --> [Caused by] ErrorException: Undefined variable $pesanan
+in APPPATH\Views\pesanan\index.php on line 20.
+ 1 APPPATH\Views\pesanan\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 5 APPPATH\Controllers\PesananController.php(22): view('pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:31:51 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: pesanan]
+in APPPATH\Views\pesanan\index.php on line 20.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 4 APPPATH\Controllers\PesananController.php(22): view('pesanan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:31:51 --> [Caused by] ErrorException: Undefined variable $items
+in APPPATH\Views\pesanan\index.php on line 20.
+ 1 APPPATH\Views\pesanan\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 5 APPPATH\Controllers\PesananController.php(22): view('pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:32:45 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: pesanan]
+in APPPATH\Views\pesanan\index.php on line 23.
+ 1 APPPATH\Views\pesanan\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 5 APPPATH\Controllers\PesananController.php(22): view('pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 11:33:06 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: pesanan]
+in APPPATH\Views\pesanan\index.php on line 29.
+ 1 APPPATH\Views\pesanan\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/index', [], true)
+ 5 APPPATH\Controllers\PesananController.php(22): view('pesanan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 12:20:12 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: pesanan/create]
+in APPPATH\Views\pesanan\create.php on line 12.
+ 1 APPPATH\Views\pesanan\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\create.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/create', [], true)
+ 5 APPPATH\Controllers\PesananController.php(34): view('pesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
+CRITICAL - 2024-10-02 12:20:25 --> ErrorException: Undefined array key "meja_id"
+[Method: GET, Route: pesanan/create]
+in APPPATH\Views\pesanan\create.php on line 12.
+ 1 APPPATH\Views\pesanan\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "meja_id"', 'C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\create.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\resto\\app\\Views\\pesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/create', [], true)
+ 5 APPPATH\Controllers\PesananController.php(34): view('pesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PesananController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesananController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\resto\\public\\index.php')
